@@ -1,0 +1,32 @@
+{
+  "name": "genres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LicentaRobertZanceanu/genres.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LicentaRobertZanceanu/genres/issues"
+  },
+  "homepage": "https://github.com/LicentaRobertZanceanu/genres#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
+  },
+  "type": "module",
+  "engines": {
+    "node": "12.18.1"
+  }
+}
